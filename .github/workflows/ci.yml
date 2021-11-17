@@ -47,7 +47,7 @@ jobs:
           template: '@/contrib/sarif.tpl'
           output: trivy-results-docker.sarif
           ignore-unfixed: true
-          vuln-type: 'os'
+          vuln-type: 'library'
           #vuln-type: 'os,library'
           severity: 'CRITICAL,HIGH'
           #exit-code: 1 # fail if there are any vulnerabilities
